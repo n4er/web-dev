@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product documentation</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Add Product</legend>
+            <label for="productName">Name Product*</label>
+            <input type="text" id="productName" name="productName" required>
+            <br><br>
+
+            <label for="productCategory">Category*</label>
+            <select id="productCategory" name="productCategory" required>
+                <option value="" disabled selected>Select category</option>
+                <option value="electronics">Electronics</option>
+                <option value="clothing">Clothing</option>
+                <option value="home">Home</option>
+                <option value="beauty">Beauty</option>
+            </select>
+            <br><br>
+
+            <label for="productColor">Color</label>
+            <input type="color" id="productColor" name="productColor">
+            <br><br>
+
+            <label for="productDeliveryDate">Delivery date</label>
+            <input type="date" id="productDeliveryDate" name="productDeliveryDate">
+            <br><br>
+
+            <input type="submit" value="Add">
+        </fieldset>
+    </form>
+</body>
+</html>
